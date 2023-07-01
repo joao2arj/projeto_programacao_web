@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Conta Corrente</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+    <h1>Cadastro de conta corrente</h1>
+    <form action="/conta-corrente" method="POST">
+      <div class="col-6">
+        <label for="numero">Numero</label>
+        <input type="text" class="form-control" id="numero" name="numero" required>
+      </div>
+      <div class="col-6">
+        <label for="saldo">Saldo</label>
+        <input type="text" class="form-control" id="saldo" name="saldo" required>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Cadastrar</button>
+    </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
