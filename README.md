@@ -5,7 +5,11 @@ Matrícula: UC22200347
 ## Ferramentas usadas
 - VS Code
 - SQLite
-- Bootstrap 5
+
+## Linguagens usadas
+- HTML
+- CSS
+-  Bootstrap 5
 
 ## Dependências necessárias para rodar o projeto:
 - NodeJS
